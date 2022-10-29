@@ -1,0 +1,34 @@
+<nav class="navbar">
+    <div class="container-fluid">
+        <div class="logo col-xl-10 col-lg-9 col-md-8 col-sm-6">
+             <a class="navbar-brand" href="#">
+             <img src="../../../assets/img/logo.png" alt="Logo" width="180" height="50" class="d-inline-block align-text-top">
+             </a>
+        </div>
+        <!--- Logo para celular-->
+        <div class="logo__cel col-xl-10 col-lg-9 col-md-8 col-sm-6">
+            <a class="navbar-brand" href="#">
+            <img src="../../../assets/img/logo2.png" alt="Logo" width="40" height="30" class="d-inline-block align-text-top">
+            </a>
+       </div>
+        <div class="redes">
+            <a class="mx-0" href="https://github.com/williamsCTR" target="_blank" rel="noopener noreferrer">
+            <img src="../../../assets/img/github.png" alt="github"  class="redes__iconos">
+            </a>
+            <a class="m-1" href="https://www.linkedin.com/in/williamsctr/" target="_blank" rel="noopener noreferrer">
+            <img src="../../../assets/img/linkedin.png" alt="linkedin"  class="redes__iconos">
+            </a>
+            <a class="mx-0" href="https://www.instagram.com/willy_cantero/" target="_blank" rel="noopener noreferrer">
+            <img src="../../../assets/img/instagram.png" alt="instagram"  class="redes__iconos">
+            </a>
+            <a class="m-1" href="https://www.facebook.com/williamsEcantero/" target="_blank" rel="noopener noreferrer">
+            <img src="../../../assets/img/facebook.png" alt="facebook"  class="redes__iconos">
+            </a>
+        </div>
+        <div class="button">
+            <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">Login</button>
+            <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">Cerrar</button>
+        </div>
+    </div>
+  </nav>
+<img src="../../../assets/img/banner-5.jpg" alt="banner" class="banner">

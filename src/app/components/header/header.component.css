@@ -1,0 +1,35 @@
+.logo__cel{
+    display: none;
+}
+
+.navbar{
+    background-color: rgb(26, 13, 41);
+    width: 100%;
+}
+
+.redes__iconos{
+    width:18px;
+    height: 18px;
+}
+
+.banner{
+    width: 100%;
+}
+
+.btn{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+@media screen and (max-width:440px){
+    .logo{
+        display: none;
+    }
+    .logo__cel{
+        display: flex;
+    }
+    .btn{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}

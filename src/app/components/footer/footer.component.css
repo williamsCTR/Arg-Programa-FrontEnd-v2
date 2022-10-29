@@ -1,0 +1,8 @@
+.row{
+    background-color: rgb(26, 13, 41);
+    margin: 3em 0 0 0;
+}
+
+.row__footer{
+    margin-top: 0.5em;
+}
